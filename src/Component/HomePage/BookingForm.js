@@ -72,7 +72,7 @@ const BookingForm = () => {
                 {
                     buyTicket &&
                     <form onSubmit={handleInfoSearch}>
-                        <div className="row py-5 booking-form">
+                        <div className="row py-5">
                             <div className="col-md-2 my-sm-2">
                                 <div className="form-group">
                                     <select type="text" name="departure" id="" onChange={(e) => setDeparture(e.target.value)} className="form-control form-select rounded-0" required>

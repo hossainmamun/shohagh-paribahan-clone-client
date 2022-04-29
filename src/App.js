@@ -27,7 +27,7 @@ export const pickedDate = createContext();
 export const userContext = createContext();
 
 function App() {
-  document.addEventListener('contextmenu', event => event.preventDefault());
+  // document.addEventListener('contextmenu', event => event.preventDefault());
   // declare useState hook
   const [seatNumber, setSeatNumber] = useState('');
   const [startDate, setStartDate] = useState(null);
