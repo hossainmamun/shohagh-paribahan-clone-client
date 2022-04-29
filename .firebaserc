@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "global-authentication-system"
+  },
+  "targets": {
+    "global-authentication-system": {
+      "hosting": {
+        "shohagh_paribahan": [
+          "shohagh-paribahan-clone"
+        ]
+      }
+    }
+  }
+}

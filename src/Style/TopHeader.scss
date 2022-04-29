@@ -1,0 +1,27 @@
+@import "./Main.scss";
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+
+  .mobile {
+    display: inline-block;
+    text-decoration: none;
+    color: $basic_color;
+    margin: 0 0 0 10px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .link-list {
+    .link {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $basic_color;
+      margin: 0 5px;
+      font-size: 13px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+$basic_color: rgb(71, 70, 70);
+$btn_bg: #da4c4d;
+$btn_hover: #9e372c;
+$ultraDark: #011627;
+$deepOrange: #fca311;
+$bg_lime: #5cb85c;
+$bg_yellow: #f0ad4e;
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html body {
+  overflow-x: hidden;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.focus-status {
+  outline: none;
+  box-shadow: none;
+}

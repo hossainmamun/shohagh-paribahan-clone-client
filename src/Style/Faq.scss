@@ -1,0 +1,22 @@
+@import './Main.scss';
+
+.faq-collapse{
+    margin-top: 100px;
+    .collapse-box{
+        border: 1px solid rgb(161, 159, 159);
+        padding: 8px 0;
+        margin: 4px 0;
+    }
+    .qus{
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 600;
+        margin: 10px;
+        color: $ultraDark;
+    }
+    .ans{
+        font-size: 16px;
+        margin: 10px;
+        border-top: 1px solid rgb(161, 159, 159);
+    }
+}

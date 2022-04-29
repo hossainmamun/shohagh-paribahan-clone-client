@@ -1,0 +1,33 @@
+@import "./Main.scss";
+
+.navigation {
+  background-color: #fff;
+  padding: 10px 0;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+
+  .brand {
+    width: 250px;
+    height: 75px;
+  }
+
+  .nav-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 10px;
+  }
+
+  .nav-link {
+    color: $basic_color;
+    text-decoration: none;
+  }
+
+  i {
+    color: $basic_color;
+    font-size: 24px;
+  }
+
+  .active-link {
+    color: $bg_lime;
+    border-bottom: 1px solid $bg_lime;
+  }
+}

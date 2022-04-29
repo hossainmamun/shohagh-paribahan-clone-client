@@ -1,0 +1,48 @@
+ @import "./Main.scss";
+
+.booking-form {
+  margin: 90px 0;
+
+  .option-btn1,
+  .option-btn2,
+  .buy-ticket,
+  .cancel-ticket {
+    padding: 15px;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+  .option-btn1 {
+    background-color: $bg_lime;
+  }
+
+  .option-btn2 {
+    background-color: $bg_yellow;
+  }
+
+  .active-bg1 {
+    background-color: $bg_lime;
+  }
+  .active-bg2 {
+    background-color: $bg_yellow;
+  }
+
+  .btn:focus,
+  input:focus,
+  select:focus,
+  i:focus, .focus-status {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.buy-cancel-guide{
+  .buy-ticket {
+    background-color: $bg_lime;
+  }
+  .cancel-ticket {
+    background-color: $bg_yellow;
+  }
+}
+

@@ -1,0 +1,77 @@
+@import "./Main.scss";
+
+.side-bar {
+  min-height: 100vh;
+  background-color: $bg_lime;
+
+  .profile-info {
+    text-align: center;
+    img {
+      height: 100px;
+      width: 100px;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+    p,
+    span {
+      text-transform: capitalize;
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin: 15px 0 10px 0;
+      color: #000;
+    }
+  }
+
+  .sidebar-link {
+    margin-top: 80px;
+
+    .active-style {
+      background-color: $bg_yellow;
+    }
+
+    i {
+      color: #fff;
+      font-size: 22px;
+      display: inline-block;
+      margin-right: 15px;
+    }
+    .link {
+      padding: 10px 0 10px 35px;
+      margin: 10px 0;
+      color: #fff;
+      text-transform: capitalize;
+      font-size: 1.3rem;
+      letter-spacing: 1;
+      font-weight: 500;
+      text-decoration: none;
+      display: block;
+      &:hover {
+        background-color: $bg_yellow;
+      }
+    }
+    .dropdown-toggle {
+      cursor: pointer;
+      font-family: "Roboto", sans-serif !important;
+    }
+  }
+}
+
+// dashboard home
+.dashboard-home, .booking-list {
+  table {
+    tr {
+      td {
+        vertical-align: middle;
+        padding: 8px 2px;
+      }
+      .payment-status {
+        font-weight: bold;
+        color: #fff;
+      }
+    }
+  }
+}
